@@ -37,6 +37,36 @@
 			"response": []
 		},
 		{
+			"name": "GetUsers Copy 2",
+			"id": "f3c50ff3-4232-48de-8e56-44cce96e4964",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "GetUsers Copy",
 			"id": "0810221d-1b0d-4b66-8769-07cc897b5512",
 			"protocolProfileBehavior": {
