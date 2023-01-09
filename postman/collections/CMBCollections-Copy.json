@@ -100,34 +100,6 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
-			"id": "1e09e29f-9dd8-4a2e-a781-1c966e00895d",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n “email”: “{{email}}”,\r\n “password”: “{{password}}”\r\n}"
-				},
-				"url": {
-					"raw": "{{endpoint}}",
-					"host": [
-						"{{endpoint}}"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "PDF Download",
 			"id": "ebe288c8-6b3d-4027-9a8f-f237e9b14710",
 			"protocolProfileBehavior": {
