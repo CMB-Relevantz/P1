@@ -4,12 +4,14 @@ id = 6b2c6c9e-9498-469b-bfb7-840d6a68810b
 [relations]
 
 [relations.collections]
-rootDirectory = postman/collections
-files[] = {"id":"24862745-a986f4aa-c48b-4c7b-afef-0bfe2037f146","path":"CMBCollections-Copy.json","metaData":{}}
+rootDirectory = postman
+files[] = {"id":"24862745-a986f4aa-c48b-4c7b-afef-0bfe2037f146","path":"CMBCollections.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
-rootDirectory = postman/schemas
+rootDirectory = .github
+files[] = {"path":"workflows/PM2GIT-Integration.yml","metaData":{}}
 
 [relations.apiDefinition.metaData]
+type = openapi:3
