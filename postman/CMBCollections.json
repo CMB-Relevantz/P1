@@ -71,6 +71,40 @@
 			"response": []
 		},
 		{
+			"name": "AddNewUser Copy",
+			"id": "8e1cae02-4018-4ad9-a456-15e7e7a62976",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": CMR\",\r\n    \"job\": \"Team leader\"\r\n}"
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "UpdateUserName",
 			"id": "ccfa0d53-ba9d-4e41-b761-c08a58592792",
 			"protocolProfileBehavior": {
