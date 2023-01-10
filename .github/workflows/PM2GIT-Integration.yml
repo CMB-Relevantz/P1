@@ -13,7 +13,7 @@ on:
   #name: Do things every 5 minutes
   #on:
   schedule:
-    - cron: "*/6 * * * *"
+    - cron: "*/8 * * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
