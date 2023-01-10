@@ -41,11 +41,11 @@ jobs:
      
           
        # Upload the reports to TestArtifacts directory
-      - name: Output the results
-        uses: actions/upload-artifact@v2
-        with:
-         name: Reports
-         path: testArtifacts
+      #- name: Output the results
+      #  uses: actions/upload-artifact@v2
+      #  with:
+      #   name: Reports
+      #  path: testArtifacts
  
       # Runs a single command using the runners shell
       # - name: Run a one-line script
