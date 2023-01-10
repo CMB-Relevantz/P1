@@ -37,7 +37,7 @@ jobs:
       # Run postman collection
       - name: Run Postman Collection 
         run: |
-          newman run Postman2GIT-Integration/postman/CMBCollections.json
+          newman run postman/CMBCollections.json
      
           
        # Upload the reports to TestArtifacts directory
